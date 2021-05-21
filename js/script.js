@@ -101,7 +101,7 @@ function printQuote(){
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
 
 // 5. Random background color for each quote
-// function that creates random RGB color
+// function that creates random number 
 function getRandomNumber () {
   return Math.floor(Math.random() * 256);
 }
